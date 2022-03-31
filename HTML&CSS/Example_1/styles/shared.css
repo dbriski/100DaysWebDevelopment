@@ -1,13 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(233, 215, 207);
+  color: rgb(100, 93, 93);
+}
+
 h1 {
   font-family: 'Hurricane', cursive;
-  text-align: center;
-  color: rgb(100, 93, 93);
 }
 
 p {
   font-family: 'EB Garamond', serif;
-  text-align: center;
-  color: rgb(100, 93, 93);
 }
 
 a {
@@ -19,8 +27,3 @@ a:hover {
   text-decoration: underline;
 }
 
-#todays-challenge {
-  color:rgb(170, 96, 93);
-  font-weight: bold;
-  font-size: 40px;
-}
