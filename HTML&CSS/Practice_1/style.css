@@ -1,0 +1,93 @@
+:root {
+  --main-box-fill: rgb(122, 74, 218);
+  --highlighted-content: burlywood;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(208, 187, 228);
+}
+
+
+h1 {
+  font-size: 60px;
+  color: var(--main-box-fill);
+}
+
+img {
+  width: 400px;
+  padding: 40px 0px 0px;
+}
+
+main {
+  width: 800px;
+  padding: 32px;
+  margin: 32px auto;
+  border-radius: 10px;
+  color: aliceblue;
+  background-color: var(--main-box-fill);
+  text-align: left;
+}
+
+ul {
+  /* padding: 5px; */
+  list-style: none;
+}
+
+p {
+  padding: 5px 0px;
+}
+
+h2 {
+  padding: 15px 0px;
+}
+
+a {
+  background-color: var(--highlighted-content);
+  color: rgb(6, 6, 97);
+  padding: 3px;
+  text-decoration: solid;
+  border-radius: 5px;
+}
+
+a:hover, a:active {
+  cursor: pointer;
+  background-color: rgb(252, 188, 11);
+
+}
+
+li {
+  margin: 14px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+
+.highlighted {
+  color: var(--highlighted-content);
+  border-color:rgb(252, 188, 11);
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: var(--highlighted-content);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(252, 188, 11);
+}
+
+footer p {
+  margin-top: 20px;
+}
