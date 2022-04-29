@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#page-logo a {
+  color: rgb(183, 230, 235);
+}
+
+header {
+  position: static;
+}
+
+nav a {
+  color: rgb(183, 230, 235);
+}
+
+nav a:hover {
+  background-color: rgb(183, 230, 235);
+  color: rgb(59, 59, 59);
+}
+
+main ul {
+  width: 120rem;
+  margin: 0 auto 4.8rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 2rem 2rem;
+}
+
+
+main li {
+  display: flex;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+li:nth-of-type(3) {
+  grid-column: 1/ span 2;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  padding: 1rem 1rem 1.5rem;
+}
+
+.item-content h2,
+p,
+a {
+  padding: 1rem;
+}
+
+.item-content p {
+  display: flex;
+  flex: 1;
+  font-size: 1.5rem;
+}
+
+main li img {
+  width: 30rem;
+  height: 28rem;
+  object-fit: cover;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(22, 211, 228);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.actions a:hover {
+  background-color: rgba(22, 211, 228, 0.1);
+}
