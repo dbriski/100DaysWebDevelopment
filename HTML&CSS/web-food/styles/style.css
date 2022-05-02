@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+html {
+  --header1: calc(1.5rem + 1vw);
+  --list-item: calc(0.7rem + 1vw);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(44, 41, 38);
+}
+
+#main-header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(29, 26, 24);
+  padding: 0 2rem;
+}
+
+#logo {
+  font-size: var(--header1);
+  font-weight: bold;
+  color: rgb(238, 164, 80);
+  text-transform: uppercase;
+}
+
+#main-header ul {
+  list-style: none;
+  display: flex;
+}
+
+#main-header li {
+  margin: 0 1.6rem;
+}
+
+#main-header nav a {
+  font-size: var(--list-item);
+  color: rgb(185, 131, 31);
+}
+
+#main-header nav a:hover {
+  color: rgb(228, 163, 44);
+}
+
+a {
+  text-decoration: none;
+}
